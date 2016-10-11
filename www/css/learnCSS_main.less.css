@@ -384,32 +384,39 @@ body#afui .splt {
 }
 @media all {
   .header-bg {
-    background-color: #df6a15;
+    background-color: #e65568;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
   }
 }
-.allow-badge > .badge.glyphicon {
-  display: inline-block;
+.left-receptacle {
+  float: left;
 }
-.list-group .d-margins {
-  margin: 0;
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 @media all {
   .wrapping-col > .d-margins,
   .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 3px;
-    margin-right: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .wrapping-col > .d-margins,
   .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 3px;
-    margin-right: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .d-margins {
-    margin-top: 5px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
 }
 .button-icon-top {
